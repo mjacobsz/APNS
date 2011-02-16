@@ -1,7 +1,8 @@
+require 'socket'
+require 'openssl'
+require 'json'
+
 module APNS
-  require 'socket'
-  require 'openssl'
-  require 'json'
 
   @host = 'gateway.sandbox.push.apple.com'
   @port = 2195
